@@ -1,0 +1,186 @@
+.content1 {
+  background-color: #d9e4a6;
+  grid-area: content1;
+  position: relative;
+}
+
+.content2 {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/bike.png);
+  background-size: cover;
+  background-position: 90% 60%;
+  // background-position: -20px 56px;
+  background-repeat: no-repeat;
+  position: relative;
+  grid-area: content2;
+}
+
+.content3 {
+  background-color: #caffe2;
+  grid-area: content3;
+}
+
+.content4 {
+  background-color: #ecdfd5;
+  grid-area: content4;
+  position: relative;
+}
+
+.content5 {
+  background-color: #fdcdc0;
+  grid-area: content5;
+  position: relative;
+}
+
+.photo1 {
+  grid-area: photo1;
+}
+
+.photo2 {
+  grid-area: photo2;
+}
+
+.photo3 {
+  grid-area: photo3;
+}
+
+.photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content6 {
+  background-color: #d9e4a6;
+  grid-area: content6;
+  position: relative;
+  overflow: hidden;
+}
+
+// .content7 {
+//   width: 100%;
+//   height: auto;
+//   background-image: url(../assets/watermellon.png);
+//   background-size: cover;
+//   background-position: 50% 50%;
+//   background-repeat: no-repeat;
+
+//   grid-area: content7;
+//   position: relative;
+// }
+
+.content7 {
+  grid-area: content7;
+  position: relative;
+  // min-height: 150px;
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+    object-fit: none;
+    object-position: 47% 40%;
+  }
+}
+
+.content8 {
+  grid-area: content8;
+  position: relative;
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    object-fit: none;
+    object-position: 10% 95%;
+  }
+}
+
+.content9 {
+  grid-area: content9;
+  position: relative;
+  overflow: hidden;
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+    object-fit: none;
+    object-position: 11% 45%;
+  }
+}
+
+.content10 {
+  grid-area: content10;
+  position: relative;
+  overflow: hidden;
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    object-fit: none;
+    object-position: 26% 70%;
+  }
+}
+
+.content11 {
+  grid-area: content11;
+  position: relative;
+  overflow: hidden;
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    object-fit: none;
+    object-position: 34% 100%;
+  }
+}
+
+.content12 {
+  grid-area: content12;
+  position: relative;
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    object-fit: none;
+    object-position: 9% 70%;
+  }
+}
+
+.content13 {
+  grid-area: content13;
+  position: relative;
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    object-fit: none;
+    object-position: 55% 70%;
+  }
+}
+
+.content14 {
+  grid-area: content14;
+  position: relative;
+
+  &__pic {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    object-fit: none;
+    object-position: 20% 70%;
+  }
+}

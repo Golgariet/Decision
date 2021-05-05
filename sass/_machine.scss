@@ -1,0 +1,51 @@
+.machine {
+  // height: 100vh;
+  background-image: url(../assets/nature.png);
+  background-size: cover;
+  background-position: 50% 36%;
+  background-repeat: no-repeat;
+  position: relative;
+  grid-area: machine;
+}
+
+.machine2 {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/forest.png);
+  background-size: none;
+  background-position: 0% 60%;
+  background-repeat: no-repeat;
+  grid-area: machine2;
+
+  //background-position: -20px 56px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  // &__pic {
+  //   width: 100%;
+  //   height: auto;
+  //   background-repeat: no-repeat;
+  //   transform: scale(1);
+  //   object-fit: none;
+  //   object-position: 20% 70%;
+  // }
+}
+
+.test1 {
+  position: relative;
+}
+
+.test2,
+.test3,
+.test4 {
+  border-left: 1px solid #696969;
+}
+
+// .test3 {
+//   border-left: 1px solid #696969;
+// }
+
+// .test4 {
+//   border-left: 1px solid #696969;
+// }

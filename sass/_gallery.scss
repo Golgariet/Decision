@@ -1,0 +1,42 @@
+.gallery {
+  background-color: #f4ede7;
+  grid-area: gallery;
+  position: relative;
+}
+
+.gal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+
+  &__arrow {
+    justify-self: center;
+    margin-left: 7rem;
+    font-size: 4rem;
+    color: #696969;
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    //text-smth
+    text-transform: uppercase;
+  }
+}
+
+.button {
+  margin-left: 2.3rem;
+  background-color: #fd6d4c;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-transform: none;
+  text-decoration: none;
+  padding: 1rem 2.4rem;
+  display: inline-block;
+  border-radius: 0.7rem;
+  border: none;
+  cursor: pointer;
+}

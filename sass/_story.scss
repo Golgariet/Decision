@@ -1,0 +1,248 @@
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  position: absolute;
+
+  &--machine {
+    margin-top: -3rem;
+  }
+
+  &--1 {
+    margin-left: 5rem;
+    margin-top: 62rem;
+  }
+
+  &--2_1 {
+    margin-left: 5rem;
+    margin-top: 25rem;
+  }
+
+  &--3_1 {
+    margin-left: 5rem;
+    margin-top: 26rem;
+  }
+
+  &--2 {
+    top: 0; // TESTING FOR PICTURE!
+    right: 0;
+    margin-left: 5rem;
+    margin-top: 35rem;
+  }
+
+  &--3 {
+    top: 0; // TESTING FOR PICTURE!
+    width: 80%;
+    margin-left: 5rem;
+    margin-top: 36rem;
+  }
+
+  &-grid {
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__test {
+    margin-left: 6rem;
+    margin-top: 5rem;
+    &--1 {
+      margin-top: 20rem;
+    }
+  }
+
+  &__frame {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__icon {
+    position: absolute;
+
+    &--part1 {
+      top: 93%;
+      left: 86%;
+    }
+
+    &--part2 {
+      top: 93%;
+      left: 83%;
+    }
+  }
+
+  &__number {
+    color: #c0b5ad;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    &--part1 {
+      top: 106%;
+      right: 6.5%;
+    }
+
+    &--part2 {
+      top: 106%;
+      right: 9.5%;
+    }
+
+    &--part3 {
+      top: 106%;
+      right: 10.5%;
+    }
+  }
+
+  &__heading {
+    font-size: 3rem;
+    width: 80%;
+    text-transform: capitalize;
+
+    &--card {
+      width: 70%;
+    }
+
+    &--light {
+      color: #ffffff;
+    }
+
+    &--grey {
+      color: #696969;
+    }
+
+    &--dark {
+      color: #000000;
+    }
+
+    &--2020 {
+      color: #202020;
+    }
+  }
+
+  &__hours {
+    margin-top: 6rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &--time {
+      margin-top: 14rem;
+    }
+
+    &--time1 {
+      margin-top: 10rem;
+    }
+
+    &--time2 {
+      margin-top: 15rem;
+    }
+
+    &--time3 {
+      margin-top: 5rem;
+    }
+
+    &--time4 {
+      margin-top: 8.7rem;
+    }
+
+    &--light {
+      color: #ffffff;
+    }
+
+    &--grey {
+      color: #696969;
+    }
+
+    &--dark {
+      color: #000000;
+    }
+
+    &--2020 {
+      color: #202020;
+    }
+  }
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;
+  display: inline-block;
+  border-radius: 1rem;
+  position: relative;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  // margin-top: 3rem;
+
+  &--head1 {
+    background-color: #facf8c;
+  }
+
+  &--head2 {
+    background-color: #fdc0e3;
+  }
+
+  &--head4 {
+    background-color: #93d08b;
+  }
+
+  &--head3 {
+    background-color: #fea35d;
+  }
+
+  &--head5 {
+    background-color: #fd6d4c;
+  }
+
+  &--head6 {
+    background-color: #eed608;
+  }
+
+  &--head7 {
+    background-color: #d8a17b;
+  }
+
+  &--head8 {
+    background-color: #eeb008;
+  }
+
+  &--head9 {
+    background-color: #aca880;
+  }
+
+  &--head10 {
+    background-color: #d65c4f;
+  }
+
+  &--head11 {
+    background-color: #eeb7a4;
+  }
+
+  &--head12 {
+    background-color: #a5b3af;
+  }
+
+  &--head13 {
+    background-color: #bc8b54;
+  }
+
+  &--card1,
+  &--card2,
+  &--card3 {
+    margin-top: 4.5rem;
+  }
+
+  &--bl {
+    color: #000;
+  }
+
+  &--wht {
+    color: #fff;
+  }
+}

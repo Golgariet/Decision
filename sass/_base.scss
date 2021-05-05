@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+// COLOR VARIABLES
+$color-primary: #f4ede7;
+$color-primary-dark: #b28451;
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #f4ede7;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483a;
+$color-grey-dark-2: #6d5d4b;
+
+// FONT VARIABLES
+$font-primary: "Montserrat", sans-serif;
+$font-display: "Josefin Sans", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-grey-dark-2;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-rows: 6fr 70fr 41fr 30fr 25fr /*problem*/ 30fr 5fr 50fr 50fr 50fr 5fr 30fr;
+  grid-template-areas:
+    "navbar navbar navbar navbar"
+    "header header header header"
+    "sidebar machine machine sidebar2"
+    "sidebar content1 content2 content3"
+    "gallery photo1 photo2 photo3"
+    "gallery content4 content5 content6"
+    "smallbar smallbar smallbar smallbar"
+    "content7 content8 content9 content10"
+    "machine2 machine2 machine2 machine2"
+    // "test1 test2 test3 test4"
+    "content11 content12 content13 content14"
+    "smallbar2 smallbar2 smallbar2 smallbar2"
+    "footer1 footer2 footer3 footer4";
+}
+
+// @media only screen and (max-width: 900px) {
+//   .container {
+//     grid-template-columns: 3fr;
+//     grid-template-rows: 0.4fr 0.4fr;
+//   }
+// }
+
+// @media only screen and (max-width: 650px) {
+//   .container {
+//     grid-template-columns: 3fr;
+//     grid-template-rows: 0.4fr 0.4fr;
+//   }
+// }
+
+//we probably need 12, 1fr
+//1140/8 = 142.5 = 14rem
+//1920/8=240 - 24rem
+//900/8=112.5 = 11rem !!!!

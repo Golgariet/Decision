@@ -1,0 +1,145 @@
+.footer1 {
+  background-color: #202020;
+  grid-area: footer1;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+
+  &__heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &__row {
+    margin-left: 6rem;
+    margin-top: 6rem;
+    width: 79%;
+  }
+
+  &__dec {
+    text-transform: uppercase;
+  }
+
+  &__dec,
+  &__ofuse {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  &__grav {
+    font-size: 1.9rem;
+    color: #ebbdad;
+  }
+}
+
+.footer2 {
+  background-color: #202020;
+  grid-area: footer2;
+  border-left: 1px solid #2e2e2e;
+  position: relative;
+  color: #9daaa6;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.row {
+  display: flex;
+  width: 70%;
+
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row2 {
+  display: flex;
+  width: 70%;
+
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column {
+  flex: 50%;
+}
+
+.footer3 {
+  background-color: #202020;
+  grid-area: footer3;
+  border-left: 1px solid #2e2e2e;
+  position: relative;
+  // display: flex;
+
+  &__items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+
+  &__item {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 3rem;
+    list-style: none;
+    border-radius: 50%;
+    // overflow: hidden;
+
+    &-1 {
+      background-color: #d65c4f;
+    }
+
+    &-2 {
+      background-color: #a5b3af;
+    }
+
+    &-3 {
+      background-color: #fea35d;
+    }
+
+    &-4 {
+      background-color: #bc8b54;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+
+    line-height: 4;
+
+    &-change {
+      word-break: break-all;
+      line-height: 1;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.footer4 {
+  background-color: #202020;
+  grid-area: footer4;
+  border-left: 1px solid #2e2e2e;
+  position: relative;
+  span {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
