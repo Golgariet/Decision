@@ -2,14 +2,16 @@
   background-color: $color-grey-light-1;
   grid-area: navbar;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  // justify-content: space-around;
+  // align-items: center;
 }
 
 .nav-items {
   display: flex;
   justify-content: space-around;
   width: 40%;
+  margin-top: 3rem;
 
   &__item {
     list-style: none;
@@ -28,6 +30,19 @@
   color: #d3866c;
   font-size: 3rem;
   font-weight: 700;
+  // height: 3rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.userbar {
+  margin-top: 3rem;
+  margin-right: 5rem;
+  &__icon {
+    height: 3rem;
+    width: 3rem;
+    fill: #696969;
+  }
 }
 
 .sidebar {

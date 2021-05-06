@@ -51,7 +51,6 @@ body {
     "smallbar smallbar smallbar smallbar"
     "content7 content8 content9 content10"
     "machine2 machine2 machine2 machine2"
-    // "test1 test2 test3 test4"
     "content11 content12 content13 content14"
     "smallbar2 smallbar2 smallbar2 smallbar2"
     "footer1 footer2 footer3 footer4";
@@ -75,3 +74,26 @@ body {
 //1140/8 = 142.5 = 14rem
 //1920/8=240 - 24rem
 //900/8=112.5 = 11rem !!!!
+
+@media only screen and (max-width: 900px) {
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-rows: 6fr 70fr 41fr 30fr 25fr /*problem*/ 30fr 5fr 50fr 50fr 50fr 5fr 30fr;
+    grid-template-areas:
+      "navbar navbar navbar"
+      "header header header";
+    //   "sidebar sidebar sidebar"
+    //   "machine machine machine"
+    //   "sidebar2 sidebar2 sidebar2"
+    //   "content1 content2 content3"
+    //   "gallery gallery gallery"
+    //   "photo1 photo2 photo3"
+    //   "content4 content5 content6"
+    //   "smallbar smallbar smallbar"
+    //   "content7 content8 content9"
+    //   "machine2 machine2 machine2"
+    //   "content11 content12 content13"
+    //   "smallbar2 smallbar2 smallbar2"
+    // "footer1 footer2 footer3"
+  }
+}
