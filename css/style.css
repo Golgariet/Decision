@@ -9,6 +9,12 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 40.6em) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-family: "Montserrat", sans-serif;
