@@ -29,11 +29,11 @@ body {
   grid-template-rows: 6fr 70fr 41fr 30fr 25fr 30fr 5fr 50fr 50fr 50fr 5fr 30fr;
   grid-template-areas: "navbar navbar navbar navbar" "header header header header" "sidebar machine machine sidebar2" "sidebar content1 content2 content3" "gallery photo1 photo2 photo3" "gallery content4 content5 content6" "smallbar smallbar smallbar smallbar" "content7 content8 content9 content10" "machine2 machine2 machine2 machine2" "content11 content12 content13 content14" "smallbar2 smallbar2 smallbar2 smallbar2" "footer1 footer2 footer3 footer4"; }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 56.25em) {
   .container {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-template-rows: 6fr 70fr 41fr 30fr 25fr 30fr 5fr 50fr 50fr 50fr 5fr 30fr;
-    grid-template-areas: "navbar navbar navbar" "header header header"; } }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr 6fr 8fr 4fr 5fr 5fr 5fr 1fr 10fr 10fr 4fr 5fr 5fr 0.5fr 2fr 2fr;
+    grid-template-areas: "navbar navbar navbar" "header header header" "machine machine sidebar2" "sidebar sidebar sidebar" "content1 content2 content3" "gallery gallery gallery" "photo1 photo2 photo3" "content4 content5 content6" "smallbar smallbar smallbar" "content7 content8 content9" "content10 content10 content10" "machine2 machine2 machine2" "content14 content14 content14" "content11 content12 content13" "smallbar2 smallbar2 smallbar2" "footer3 footer3 footer3" "footer1 footer2 footer4"; } }
 
 .content1 {
   background-color: #d9e4a6;
@@ -54,7 +54,8 @@ body {
 
 .content3 {
   background-color: #caffe2;
-  grid-area: content3; }
+  grid-area: content3;
+  position: relative; }
 
 .content4 {
   background-color: #ecdfd5;
@@ -329,6 +330,9 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 56.25em) {
+    .header {
+      grid-template-columns: repeat(3, 0.5fr); } }
 
 .head1 {
   position: relative; }
@@ -357,6 +361,9 @@ body {
   grid-area: machine2;
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 56.25em) {
+    .machine2 {
+      grid-template-columns: repeat(3, 1fr); } }
 
 .test1 {
   position: relative; }

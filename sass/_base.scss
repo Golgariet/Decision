@@ -104,14 +104,28 @@ body {
 //1920/8=240 - 24rem
 //900/8=112.5 = 11rem !!!!
 
-@media only screen and (max-width: 900px) {
+@include respond(tablet) {
   .container {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-template-rows: 6fr 70fr 41fr 30fr 25fr /*problem*/ 30fr 5fr 50fr 50fr 50fr 5fr 30fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr 6fr 8fr 4fr 5fr 5fr 5fr 1fr 10fr 10fr 4fr 5fr 5fr 0.5fr 2fr 2fr;
     grid-template-areas:
       "navbar navbar navbar"
-      "header header header";
-    //   "sidebar sidebar sidebar"
+      "header header header"
+      "machine machine sidebar2"
+      "sidebar sidebar sidebar"
+      "content1 content2 content3"
+      "gallery gallery gallery"
+      "photo1 photo2 photo3"
+      "content4 content5 content6"
+      "smallbar smallbar smallbar"
+      "content7 content8 content9"
+      "content10 content10 content10"
+      "machine2 machine2 machine2"
+      "content14 content14 content14"
+      "content11 content12 content13"
+      "smallbar2 smallbar2 smallbar2"
+      "footer3 footer3 footer3"
+      "footer1 footer2 footer4";
     //   "machine machine machine"
     //   "sidebar2 sidebar2 sidebar2"
     //   "content1 content2 content3"

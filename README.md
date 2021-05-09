@@ -1,6 +1,6 @@
 # Decision - Custom Web SPA !IN PRODUCTION!
 
-Decision - Fully implemented Single Page application (SPA) with awesome design.
+Decision - Fully implemented Single Page application (SPA) with awesome grid based massonry design.
 
 ## Usage
 
@@ -13,14 +13,14 @@ npm run devserver
 ```
 
 The page will reload if you make edits.
-You will also see any lint errors in the console.
+You will also see lint errors in the console.
 
 ## Features
 
-- Fully Responsive
+- Not Responsive (Needs many changes for IT to be responsive 4 blocks (desktop) - 3 blocks (tablet) - 2 blocks (mobile))
 - Mouse and Touch sensitive
-- Burger menu implementation
-- Systemic grid implementation
+- Burger menu implementation (is still in development)
+- Systemic grid implementation design
 
 ## Contributing
 
